@@ -1,4 +1,4 @@
-const squareCode = function (message) {
+const squareCode = function(message) {
   //Create variable where there are no spaces
   let square = message.split(" ").join("");
   //Find size of columns rectangle/square

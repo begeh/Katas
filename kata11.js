@@ -1,4 +1,4 @@
-const organizeInstructors = function (instructors) {
+const organizeInstructors = function(instructors) {
   //Pushing course names to an array
   let list = [];
   for (let i = 0; i < instructors.length; i++) {
@@ -18,7 +18,7 @@ const organizeInstructors = function (instructors) {
     if (instructors[x].course in finalList === true) {
       finalList[instructors[x].course].push(instructors[x].name);
     }
-  };
+  }
   return finalList;
 };
 
@@ -33,4 +33,4 @@ console.log(organizeInstructors([
   { name: "David", course: "Web" },
   { name: "Martha", course: "iOS" },
   { name: "Carlos", course: "Web" }
-]));  
+]));

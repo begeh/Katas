@@ -1,44 +1,33 @@
-let talkingCalendar = function (date) {
+let talkingCalendar = function(date) {
   let arr = date.split("/");
   let year = arr[0];
   let month = arr[1];
   let day = arr[2];
   switch (month) {
-    case "01":
-      return "January " + day + ", " + year;
-      break;
-    case "02":
-      return "February " + day + ", " + year;
-      break;
-    case "03":
-      return "March " + day + ", " + year;
-      break;
-    case "04":
-      return "April " + day + ", " + year;
-      break;
-    case "05":
-      return "May " + day + ", " + year;
-      break;
-    case "06":
-      return "June " + day + ", " + year;
-      break;
-    case "07":
-      return "July " + day + ", " + year;
-      break;
-    case "08":
-      return "August " + day + ", " + year;
-      break;
-    case "09":
-      return "September " + day + ", " + year;
-      break;
-    case "10":
-      return "October " + day + ", " + year;
-      break;
-    case "11":
-      return "November " + day + ", " + year;
-      break;
-    case "12":
-      return "December " + day + ", " + year;
+  case "01":
+    return "January " + day + ", " + year;
+  case "02":
+    return "February " + day + ", " + year;
+  case "03":
+    return "March " + day + ", " + year;
+  case "04":
+    return "April " + day + ", " + year;
+  case "05":
+    return "May " + day + ", " + year;
+  case "06":
+    return "June " + day + ", " + year;
+  case "07":
+    return "July " + day + ", " + year;
+  case "08":
+    return "August " + day + ", " + year;
+  case "09":
+    return "September " + day + ", " + year;
+  case "10":
+    return "October " + day + ", " + year;
+  case "11":
+    return "November " + day + ", " + year;
+  case "12":
+    return "December " + day + ", " + year;
   }
 };
 

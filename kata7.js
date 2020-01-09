@@ -1,4 +1,4 @@
-let camelCase = function (input) {
+let camelCase = function(input) {
   let arr = input.split(" ");
   let arr2 = [];
   arr2.push(arr[0]);

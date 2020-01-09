@@ -1,4 +1,4 @@
-const urlDecode = function (text) {
+const urlDecode = function(text) {
   let obj = {};
   text = text.split("&");
   for (let i = 0; i < text.length; i++) {

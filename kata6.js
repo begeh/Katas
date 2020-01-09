@@ -1,18 +1,16 @@
-let repeatNumbers = function (data) {
+let repeatNumbers = function(data) {
   let arr = [];
   if (data.length === 1) {
     for (let i = 0; i < data[0][1]; i++) {
       arr.push(data[0][0]);
     }
-  }
-  else {
+  } else {
     for (let x = 0; x < data.length; x++) {
       for (let y = 0; y < data[x][1]; y++) {
         if (y === (data[x][1] - 1) && x !== (data.length - 1)) {
           arr.push(data[x][0]);
           arr.push(', ');
-        }
-        else {
+        } else {
           arr.push(data[x][0]);
         }
       }

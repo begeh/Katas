@@ -1,4 +1,4 @@
-const urlEncode = function (text) {
+const urlEncode = function(text) {
   let str = text.trim().split("");
   for (let i = 0; i < str.length; i++) {
     if (str[i] === " ") {
